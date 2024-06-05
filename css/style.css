@@ -3,3 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #020260;
+    color: white;
+    font-family: "Tahoma", sans-serif;
+}
+
+main {
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+h1 {
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+li {
+    margin-bottom: .8rem;
+    font-size: 1.2rem;
+    font-family: monospace;
+}

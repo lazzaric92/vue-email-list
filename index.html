@@ -8,7 +8,14 @@
 </head>
 <body>
     <div id="app">
-        
+        <main>
+            <h1>Emails List</h1>
+            <ul>
+                <li v-for="email in emailsArray">
+                    {{ email }}
+                </li>
+            </ul>
+        </main>
     </div>
 
 
