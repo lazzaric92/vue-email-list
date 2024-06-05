@@ -28,3 +28,21 @@ li {
     font-size: 1.2rem;
     font-family: monospace;
 }
+
+p {
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+
+.fa-spinner {
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    font-size: 2rem;
+}
+
+@keyframes rotate{
+    from{ transform: rotate(-360deg); }
+    to{ transform: rotate(360deg); }
+}
